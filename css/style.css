@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  h1 {
+    color: rgb(255, 251, 0);
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  
+  #para1 {
+    text-align: center;
+    color: rgb(0, 255, 255);
+  }
+
+  .center {
+    text-align: center;
+    color: rgb(115, 255, 0);
+  }
