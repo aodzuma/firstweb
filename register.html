@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
 
     <link rel="stylesheet" href="css/style.css">
-
-    <title>Register</title>
 </head>
 <body>
     <h1>Register.html</h1>
     <form>
-        <p> ชื่อ : <input type="text"> </p>
-        <p> นามสกุล : <input type="text"> </p>
-        <p> วันเกิด : <input type="date"> </p>
-        <p> น้ำหนัก : <input type="number" min="1" max="500"> </p>
-        <p> Email : <input type="email"> </p>
-        <p> username : <input type="text"> </p>
-        <p> password : <input type="password"> </p>
-        <p> เพศ : <input type="radio" name="gender" value="Male">ชาย 
-                  <input type="radio" name="gender" value="Female">หญิง </p>
-        <p> วิชาที่ชอบ : <input type="checkbox" name="subject1" value="C++">C++ 
-                       <input type="checkbox" name="subject2" value="Elec">Elec 
-                       <input type="checkbox" name="subject3" value="Besic">Besic </p>
-        <p> <input type="submit" value="ยืนยัน">
-            <input type="reset" value="ยกเลิก"> </p>
+        <p>ชื่อ : <input type="text"></p>
+        <p>นามสกุล : <input type="text"></p>
+        <p>E-mail : <input type="email"></p>
+        <p>วันเกิด : <input type="date"></p>
+        <p>น้ำหนัก : <input type="number" min="1" max="500"></p>
+        <p>ส่วนสูง : <input type="number" min="1" max="200"></p>
+            <form>
+                <label for="myfile">ใส่รูปภาพ :</label>
+                <input type="file" id="myfile" name="myfile">
+              </form>
+        <p>Password : <input type="password"></p>
+        <p>เพศ : <input type="radio" name="gender" value="male" >ชาย
+                  : <input type="radio" name="gender" value="female" >หญิง
+            </p>
+        <p>สีที่ชอบ : <input type="color"></p>
+        <p>ประเทศที่ชอบ : <input type="checkbox" name="Country1" value="Thailand" >Thailand
+                      <input type="checkbox" name="Country2" value="Japan" >Japan
+                      <input type="checkbox" name="Country3" value="America">America
+            </p>
+        <input type="submit" value="ตกลง">
+        <input type="reset" value="ยกเลิก">
     </form>
 </body>
 </html>
